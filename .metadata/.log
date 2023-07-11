@@ -2991,3 +2991,90 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-11 22:25:20.470
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-11 22:25:20.576
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-11 22:25:22.513
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-11 22:25:22.567
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-07-11 22:25:23.954
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.jface 2 0 2023-07-11 23:04:07.679
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-11 23:04:07.679
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2023-07-11 23:13:41.251
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 00:50:01.282
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2751, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 00:50:01.282
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2751, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 00:50:01.283
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2751, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 00:50:01.283
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 2751, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:13:40.995
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3912, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:13:40.996
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3912, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:14:08.445
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3931, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:14:08.446
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3931, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:14:22.240
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3965, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:14:22.241
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 3965, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.142
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.143
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.144
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.228
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.632
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-12 01:43:36.634
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 4524, state before: 10 after: 4
