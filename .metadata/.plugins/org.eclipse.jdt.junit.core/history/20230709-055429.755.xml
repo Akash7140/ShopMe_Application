@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RoleRepositoryTests.testCreateRoles" project="ShopmeBackEnd" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.shopme.admin.user.RoleRepositoryTests" time="1.93" displayname="RoleRepositoryTests" uniqueid="[engine:junit-jupiter]/[class:com.shopme.admin.user.RoleRepositoryTests]">
+    <testcase name="testCreateRoles" classname="com.shopme.admin.user.RoleRepositoryTests" time="1.93" displayname="testCreateRoles()" uniqueid="[engine:junit-jupiter]/[class:com.shopme.admin.user.RoleRepositoryTests]/[method:testCreateRoles()]"/>
+  </testsuite>
+</testrun>
