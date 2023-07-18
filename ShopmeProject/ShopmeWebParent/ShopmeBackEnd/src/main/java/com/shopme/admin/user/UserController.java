@@ -71,6 +71,7 @@ public class UserController {
 			RedirectAttributes redirectAttributes) {
 		try {
 			service.delete(id);
+			
 			redirectAttributes.addFlashAttribute("message","The user ID "+id+" has been deleted successfully");
 		} catch (UserNotFoundException ex) {
 			// TODO Auto-generated catch block
@@ -78,4 +79,16 @@ public class UserController {
 		}
 		return "redirect:/users";
 	}
+	
+	@GetMapping("/users/{id}/enabled/{status}")
+	public String updateUserEnabledStatus(@PathVariable (name="id") Integer id,
+			@PathVariable (name="status") Boolean enabled,
+			RedirectAttributes redirectAttributes) {
+		service.updateUserEnabledStatus(id, enabled);
+		String status = enabled?"enabled":"disabled";
+		String message = "The user ID "+id+" has been "+status;
+		redirectAttributes.addFlashAttribute("message",message);
+		return "redirect:/users";
+	}
+	
 }
