@@ -27,7 +27,7 @@ public class UserRepositoryTests {
 	@Test
 	public void testCreateUserWithOneRole() {
 		Role roleAdmin = entityManager.find(Role.class, 1);
-		User userAkash = new User("akashkrsingh7140@gmail.com","akash123","Akash","Kumar Singh");
+		User userAkash = new User("akashkrsingh71400@gmail.com","akash1234","Akash","Kumar Singh");
 		userAkash.addRole(roleAdmin);
 		
 		User savedUser = repo.save(userAkash);
